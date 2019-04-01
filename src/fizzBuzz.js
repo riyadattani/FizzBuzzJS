@@ -8,4 +8,5 @@ function fizzBuzz(n) {
   if (n % 5 == 0) {
     return 'Buzz';
   }
+  return n
 }

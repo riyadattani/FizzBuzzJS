@@ -12,4 +12,8 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz(15)).toEqual("fizzBuzz");
   });
 
+  it("returns number if it is not divisible by 3 or 5", function() {
+    expect(fizzBuzz(4)).toEqual(4);
+  });
+
 });
